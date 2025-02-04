@@ -1,0 +1,5 @@
+com\jhoan\curso\model\Study.class
+com\jhoan\curso\CursoApplication.class
+com\jhoan\curso\service\InfoService.class
+com\jhoan\curso\controllers\PortfolioController.class
+com\jhoan\curso\model\PersonalInfo.class
