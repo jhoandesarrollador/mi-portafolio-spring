@@ -1,0 +1,82 @@
+body {
+    padding-top: 70px; /* Para el navbar fijo */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Fuente moderna */
+    background-color: #D3D3D3; /* Fondo suave */
+}
+
+section {
+    padding: 10px 0; /* Más espacio en las secciones */
+}
+
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: none; /* Sin borde */
+    border-radius: 12px; /* Bordes redondeados */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    background-color: #ffffff; /* Fondo blanco */
+    overflow: hidden; /* Para evitar desbordamientos */
+}
+
+.card:hover {
+    transform: translateY(-10px); /* Efecto de elevación */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Sombra más pronunciada al hacer hover */
+}
+
+.card-body {
+    padding: 2rem; /* Más espacio interno */
+}
+
+.card-title {
+    font-size: 1.5rem; /* Tamaño de título más grande */
+    font-weight: 600; /* Negrita */
+    color: #333; /* Color oscuro para el título */
+}
+
+.card-text {
+    font-size: 1rem; /* Tamaño de texto estándar */
+    color: #555; /* Color gris para el texto */
+    line-height: 1.6; /* Espaciado entre líneas */
+}
+
+.btn {
+    border-radius: 8px; /* Bordes redondeados para botones */
+    font-weight: 500; /* Negrita moderada */
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.btn:hover {
+    transform: translateY(-2px); /* Efecto de elevación en botones */
+}
+
+/* Estilos para el navbar */
+.navbar {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra suave para el navbar */
+}
+
+/* Estilos para los íconos */
+.bi {
+    margin-right: 16px; /* Espacio entre íconos y texto */
+    color: #333333; /* Color azul para íconos */
+}
+
+/* Efecto de hover en íconos */
+.bi:hover {
+    color: #0056b3; /* Color azul más oscuro al hacer hover */
+}
+
+/* Estilos para el footer */
+footer {
+    background-color: #343a40; /* Fondo oscuro */
+    color: #ffffff; /* Texto blanco */
+    padding: 2rem 0; /* Espaciado interno */
+    text-align: center; /* Centrar texto */
+}
+
+footer a {
+    color: #007bff; /* Color azul para enlaces */
+    text-decoration: none; /* Sin subrayado */
+}
+
+footer a:hover {
+    color: #0056b3; /* Color azul más oscuro al hacer hover */
+}
